@@ -18,8 +18,7 @@ background-color:#FFDF00;
 min-height: 200px;
 background-image:url("images/logo2.jpg");
 background-repeat: no-repeat;
-background-position:center;
-
+background-position: center;
 }
 h1{
 	font-size: 300%;
@@ -31,7 +30,10 @@ h1{
 	float:left
 }
 #right{
-	float: right;
+	float: right; margin-right: 10px;
+}
+#right a img{
+	border: none;
 }
 #main{
 	background-color: white;
