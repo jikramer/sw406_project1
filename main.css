@@ -4,7 +4,7 @@
 	padding: 0;
 }
 body {
-background: linear-gradient(#FFDF00,white);
+background: linear-gradient(#D4AF37,#58575C);
 }
 #wrapper{
 background-color: #58575C;
@@ -68,7 +68,6 @@ nav a{
 .dropdown .drop{
 	font-size:16px;;
 	border: none;
-	outline: none;
 	color: black;
 	background-color: #F5F5F5;
 	font-weight: bold;
