@@ -19,7 +19,6 @@ min-height: 200px;
 background-image:url("images/logo2.jpg");
 background-repeat: no-repeat;
 text-align: center;
-display: inline-block;
 }
 #social{
 	display: block;
