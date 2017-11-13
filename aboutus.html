@@ -2,37 +2,91 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-<link rel="stylesheet" href="main.css"/>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<link rel="stylesheet" href="main.css"/>
+		<title> About Us</title>
+		<style>
+		footer {
+			background-color: red;
+		}
+		ol {
+			text-indent: 10px;
+		}
+	</style>
 	</head>
 
 	<body>
-			<header>
-			<h1 id="left">Spark City FRC Team 3634</h1>
-				<div id="right">
-					<div id="social">Follow Our Social Media</div>
-					<a href="https://www.facebook.com/hardbotties3634"><img src="images/FB-f-Logo__blue_29.png"/></a>
-					<a href="https://www.youtube.com/user/hardbotties3634"><img src="images/youtube_social_squircle_red2.png" /></a>
-					<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
+		<header>
+			<h1>Spark City FRC Team 3634</h1>
+		</header>
+		<nav>
+			<div id="center">
+				<a href="index.html">Home</a>
+				<div class="dropdown">
+					<button class="drop">
+						Who we are
+					</button>
+					<div class="dropdown-content">
+						<a href="aboutus.html">About Us</a>
+						<a href="meettheteam.html">Team Members</a>
+					</div>
 				</div>
-			</header>
-			<div w3-include-html="commonNav.html"></div>
- 			     
-	     	<script>
-				w3.includeHTML();
-			</script>
-<div id="wrapper">
+				<a href="">Team History</a>
+				<div class="dropdown">
+					<button class="drop">
+						Sponsors
+					</button>
+					<div class="dropdown-content">
+						<a href="">Donation</a>
+						<a href="">Success Stories</a>
+					</div>
+				</div>
+
+				<a href="">District Events</a>
+				<div class="dropdown">
+					<button class="drop">
+						Opportunities
+					</button>
+					<div class="dropdown-content">
+						<a href="">Volunteer</a>
+						<a href="">Student Registration</a>
+					</div>
+				</div>
+				<a href="involvement.html">Involvement</a>
+			</div>
+		</nav>
+		<div id="wrapper">
 			<div id="main">
-				<section style="margin: 0 auto;">
 				<h2>Our Mission</h2>
-					<q style="text-align: center; margin: 0 auto; display: block;">Promote opportunities for the Bridgeport community by providing a platform for students to learn, connect, and explore into the field of engineering.
-					 To spread STEM awareness to the Greater Bridgeport Area. Our goal is to strive as a team, encourage professionalism, and build relationship with our community.</q>
-			
-				</section>
+				<q>Promote oportunities for Bridgeport community by providing a platform for students to learn, connect, and explore into the field of engineering.
+					To spread STEM awareness to the Greater Bridgeport Area. Our goal is to strive as a team, encourage professionalism, and build relationships with our community,
+					to make a better world.</q>
+				<h3> List of high schools team members are in: </h3>
+				<ol>
+					<li>
+						Harding High School
+					</li>
+					<li>
+						Fairchild Wheeler High School
+					</li>
+					<li>
+						Central High School
+					</li>
+				</ol>
+				<h3> Information about Fairfield Engineering and class courses: </h3>
+				EG 0260 Robots3 Credits
+				Prerequisite: PS 0115.
+				Introductory course in robotics develops understanding of how robotic systems integrate sensors, actuators, and control systems to achieve specific goals. Principles of autonomy, programming, wireless communications, sensor applications, mechatronics, electrical power, electric motors, pneumatics, structure, and locomotion will be understood and applied. Design of robotic subsystems will utilize multiple areas of knowledge. The course will involve application of statistical analysis to quantify robot performance. Service learning is an integral part of the course. All participants will participate in weekly mentoring of a youth robotics competition team to put into practice the principles learned in class, and to learn through community interaction from other students using robots to accomplish different feats.
+				
+				SW 0304 Web Development3 Credits
+				Attributes: ENPC Digital Journalism Production Component
+				Prerequisite: CS 0131.
+				This course introduces the student to developing applications for use on the World Wide Web. Students learn basic n-tier concepts for designing distributed applications and gain hands on experience through the construction of Web-based applications. The course covers concepts that allow communication over the Web. This includes designing and authoring Web pages, markup languages, the client-side document object model, usability, search engine optimization, and client-side dynamic Web pages
+				
 			</div>
 
 			<footer>
-				
+				<br>
+				<a href="mailto:robotics@yahoo.com> Robotics Email</a>
 			</footer>
 		</div>
 	</body>
