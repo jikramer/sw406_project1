@@ -4,7 +4,7 @@
 	padding: 0;
 }
 body {
-background: linear-gradient(#FFDF00,white);
+background: linear-gradient(#FFDF00,#58575C);
 }
 #wrapper{
 background-color: #58575C;
@@ -18,19 +18,26 @@ background-color:#FFDF00;
 min-height: 200px;
 background-image:url("images/logo2.jpg");
 background-repeat: no-repeat;
-background-position: center;
+text-align: center;
+display: inline-block;
+}
+#social{
+	display: block;
+	border-bottom: 2px dashed black;
+	margin-right: 10px;
 }
 h1{
+	display:block;
 	font-size: 300%;
 	text-shadow: 2px 2px 2px #403F45;
 	font-style: italic;
 	margin: 10px 10px;
-}
-#left{
-	float:left
+	float:center;
 }
 #right{
-	float: right; margin-right: 10px;
+	display: block;
+	float: right;
+	margin-right: 10px;
 }
 #right a img{
 	border: none;
@@ -42,7 +49,7 @@ h1{
 
 nav{
 overflow: hidden;
-background-color: #F5F5F5;
+background-color: #403F45;
 
 }
 #center{
@@ -57,7 +64,7 @@ nav a{
 	float:left;
 	padding: 20px 20px;
 	text-decoration: none;
-	color: black;
+	color: #F5F5F5;
 	
 }
 footer{
@@ -87,6 +94,7 @@ min-height: 150px;
 	background-color: white;
 }
 .dropdown-content a{
+	color: black;
 	float: none;
 	padding: 10px 20px;
 	text-decoration: none;
@@ -98,62 +106,12 @@ min-height: 150px;
 }
 nav a:hover , .dropdown:hover .drop{
 	background-color: #FFDF00;
+	color: black;
 }
 
 
-/*jk added */
+/*jk added made a new css*/
 
-table{
-		margin: auto;
-		border: 2px solid #3300FF;
- 		border-collapse: collapse;
- 		padding-right: .5em;
-		width: 90%;
-}
-
-td, th{ 
-		padding:.5em;
-		border: 2px solid #3300FF;
-		
-}
-
-h2{
-	text-align: center;
-}
-
-h3{
-	padding-left:20px;
-}
-
-blockquote{
-	padding-left:25px;
-}
-
-
-.ul_title{
-		font-weight: bold;
-		padding-left:20px;
-		padding-right:20px;
-		font-size:18px;		
-}
-
-ul{
-	padding-left:40px;
-	padding-right:40px;
- }
-
-li 	{
- 	font:italic bold 16px;
- 
- }
-dt {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-dd{
-	padding-left: 30px;
-	padding-right: 30px;
-}
 /* SL added */
 #teampics{
 	min-height: 500px;
