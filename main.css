@@ -37,7 +37,7 @@ h1{
 }
 #main{
 	background-color: white;
-	min-height: 800px;
+	min-height: 1000px;
 }
 
 nav{
@@ -60,13 +60,17 @@ nav a{
 	color: black;
 	
 }
+footer{
+background-color: #58575C;
+min-height: 150px;
+}
 .dropdown{
 	float:left;
 	overflow:hidden;
 	
 }
 .dropdown .drop{
-	font-size:16px;;
+	font-size:16px;
 	border: none;
 	outline: none;
 	color: black;
@@ -144,7 +148,7 @@ li 	{
  }
 dt {
 	padding-left: 20px;
-	padding-right: 20x;
+	padding-right: 20px;
 }
 dd{
 	padding-left: 30px;
