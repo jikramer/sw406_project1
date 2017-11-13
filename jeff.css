@@ -1,0 +1,44 @@
+table{
+		margin: auto;
+		border: 2px solid #3300FF;
+ 		border-collapse: collapse;
+ 		padding-right: .5em;
+		width: 90%;
+}
+
+td, th{ 
+		padding:.5em;
+		border: 2px solid #3300FF;
+		
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	padding-left:20px;
+}
+
+blockquote{
+	padding-left:25px;
+}
+
+
+.ul_title{
+		font-weight: bold;
+		padding-left:20px;
+		padding-right:20px;
+		font-size:18px;		
+}
+
+ul{
+	padding-left:40px;
+	padding-right:40px;
+ }
+
+li 	{
+ 	font:italic bold 16px;
+ 
+ }
+

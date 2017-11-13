@@ -27,13 +27,18 @@ h1{
 	margin: 10px 10px;
 }
 #left{
-	float:left
+	float:left;
 }
 #right{
-	float: right; margin-right: 10px;
+	display: block;
+	float: right; 
+	margin-right: 10px;
 }
-#right a img{
-	border: none;
+#social{
+border-bottom: dashed 2px black;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: bold;
 }
 #main{
 	background-color: white;
@@ -66,7 +71,7 @@ nav a{
 	
 }
 .dropdown .drop{
-	font-size:16px;;
+	font-size:16px;
 	border: none;
 	color: black;
 	background-color: #F5F5F5;
@@ -94,3 +99,4 @@ nav a{
 nav a:hover , .dropdown:hover .drop{
 	background-color: #FFDF00;
 }
+
