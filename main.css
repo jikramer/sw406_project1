@@ -5,6 +5,8 @@
 }
 body {
 background: linear-gradient(#FFDF00,#58575C);
+background-image:url("images/dust_scratches.png");
+background-repeat: repeat;
 }
 #wrapper{
 background-color: #58575C;
@@ -16,30 +18,28 @@ min-height: 1000px;
 header{
 background-color:#FFDF00;
 min-height: 200px;
-background-image:url("images/logo2.jpg");
-background-repeat: no-repeat;
+background-image:url("images/halftone-yellow.png");
+background-repeat: repeat;
 text-align: center;
 }
-#social{
-	display: block;
-	border-bottom: 2px dashed black;
-	margin-right: 10px;
-}
 h1{
-	display:block;
 	font-size: 300%;
 	text-shadow: 2px 2px 2px #403F45;
 	font-style: italic;
-	margin: 10px 10px;
-	float:center;
 }
+
 #right{
 	display: block;
 	float: right;
-	margin-right: 10px;
+	margin: 10px 10px;
 }
 #right a img{
+	margin-top: 10px;
 	border: none;
+}
+#social{
+	border-bottom: 3px dashed black;
+	font: bold italic 110% helvetica;
 }
 #main{
 	background-color: white;
@@ -79,8 +79,8 @@ min-height: 150px;
 	font-size:16px;
 	border: none;
 	outline: none;
-	color: black;
-	background-color: #F5F5F5;
+	color:#F5F5F5 /*black*/;
+	background-color: #403F45 /*#F5F5F5*/;
 	font-weight: bold;
 	font-family:Arial, Helvetica, sans-serif;
 	padding: 20px 20px;
@@ -90,10 +90,10 @@ min-height: 150px;
 	position: absolute;
 	min-width: 180px;
 	z-index: 1;
-	background-color: white;
+	background-color: #403F45 /*white*/;
 }
 .dropdown-content a{
-	color: black;
+	color: #F5F5F5;
 	float: none;
 	padding: 10px 20px;
 	text-decoration: none;
