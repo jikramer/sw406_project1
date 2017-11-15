@@ -27,7 +27,9 @@ h1{
 	text-shadow: 2px 2px 2px #403F45;
 	font-style: italic;
 }
-
+img{
+	float: left;
+}
 #right{
 	display: block;
 	float: right;
