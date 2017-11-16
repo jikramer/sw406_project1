@@ -8,7 +8,7 @@
  		<style>
  			section{
  				box-sizing:border-box;
- 				width:50%;
+ 				width:70%;
  				text-align: center;
  				display: block;
  				padding: 20px 20px;
@@ -19,17 +19,32 @@
  			}
  			p{
  			font-size: 115%;
- 			padding: 10px 10px;
+ 			padding-left: 20px;
+ 			padding-right: 20px;
+ 			height: 200px;
  			}
  			iframe{
  				margin: 0 auto; display: block;
+ 				padding-top: 50px;
+ 			}
+ 			section figure img{
+ 				border: 7px solid #403F45;
+ 				border-bottom: none;
+ 			}
+ 			section figure{
+ 				display: block;
+ 				background-color: #403F45;
+ 				float: left;
+ 			}
+ 			section figure figcaption{
+ 				font-size: 15px;
+ 				font-style: italic;
+ 				color: #FFFFFF;
  			}
  		</style>
 	</head>
 	<body>
 			<header>
-				<img src="images/logo2.jpg" />
-				<h1>Spark City FRC Team 3634</h1>
 				<div id="right">
 					<div id="social">Follow Our Social Media</div>
 					<a href="https://www.facebook.com/hardbotties3634"><img src="images/FB-f-Logo__blue_29.png"/></a>
@@ -37,6 +52,7 @@
 					<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
 					<a href=""><img src="" /></a>
 				</div>
+				<h1>Spark City FRC Team 3634</h1>
 			</header>
 	 		
 			<div w3-include-html="commonNav.html"></div>
@@ -48,7 +64,9 @@
 			<div id="main">
 				<section>
 					<h3><em>Our Story</em></h3>
-					<p>We are the first robotic team in Bridgeport District. Our goal is to promote excellence, and professionalism to our community. FIRST Robotic Competition allows us to expand and connect to many different fields of engineering.</p>
+					<figure><img src="images/logo2.jpg" /><figcaption>Spark City Team Logo</figcaption>
+					</figure>
+					<p>We are the first robotic team in Bridgeport District. Our goal is to promote excellence, and professionalism to our community. FIRST Robotics Competition allows us to expand and connect to many different fields of engineering.</p>
 				</section>
 				<br />
 				<iframe width="760" height="515" src="https://www.youtube.com/embed/pAkMPD2Q9kE" frameborder="0" allowfullscreen></iframe>
