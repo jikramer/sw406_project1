@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="jeff.css" />
+ 		<script src="https://www.w3schools.com/lib/w3.js"></script>
+ 	</head>
+
+	<body>
+			<header>
+				<h1 id="left">Spark City FRC Team 3634</h1>
+				<div id="right">
+					<div id="social">Follow Our Social Media</div>
+					<a href="https://www.facebook.com/hardbotties3634"><img src="images/FB-f-Logo__blue_29.png" /></a>
+					<a href="https://www.youtube.com/user/hardbotties3634"><img src="images/youtube_social_squircle_red2.png" /></a>
+					<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
+				</div>
+			</header>
+
+			<div w3-include-html="commonNav.html"></div>
+
+	     	<script>
+				w3.includeHTML();
+			</script>
+
+				<div id="wrapper">
+				<div id="main">
+
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+					<!-- Identify your business so that you can collect the payments. -->
+					<input type="hidden" name="business" value="donations@sparkCity3634.org">
+
+					<!-- Specify a Donate button. -->
+					<input type="hidden" name="cmd" value="_donations">
+
+					<!-- Specify details about the contribution -->
+					<input type="hidden" name="item_name" value="sparkCity">
+					<input type="hidden" name="item_number" value="sparkCity3634">
+					<input type="hidden" name="currency_code" value="USD">
+
+					<!-- Display the payment button. -->
+					<input type="image" name="submit"
+					src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+					alt="Donate">
+					<img alt="" width="1" height="1"
+					src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+				</form>
+			</main>
+	</div>
+
+			<footer>
+
+			</footer>
+		</div>
+	</body>
+</html>

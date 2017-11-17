@@ -115,3 +115,12 @@ nav a:hover , .dropdown:hover .drop{
 #teampics{
 	min-height: 500px;
 }
+
+.donate{
+	float: right;
+	overflow: hidden;
+	padding-right:10px;
+	padding-top:5px;
+}
+
+
