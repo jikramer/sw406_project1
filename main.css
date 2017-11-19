@@ -22,10 +22,11 @@ background-image:url("images/halftone-yellow.png");
 background-repeat: repeat;
 text-align: center;
 }
-h1{
-	font-size: 300%;
-	text-shadow: 2px 2px 2px #403F45;
+header h1{
+	text-shadow: 1.4px 1.4px 1.4px #403F45;
+	font-weight: bold;
 	font-style: italic;
+	font-size:300%;
 }
 #right{
 	display: block;
