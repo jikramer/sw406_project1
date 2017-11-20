@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Robotic Team</title>
 		<link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="slide.css" />
  		<script src="https://www.w3schools.com/lib/w3.js"></script>
  		<style>
  			section{
@@ -14,6 +15,15 @@
  				padding: 20px 20px;
  				margin: 0 auto;
  			}
+.slideshow{
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
  			h3{
  			padding: 20px 20px; font-size: 300%;
  			}
@@ -25,7 +35,7 @@
  			}
  			iframe{
  				margin: 0 auto; display: block;
- 				padding-top: 50px;
+ 				padding: 50px 50px;
  			}
  			section figure img{
  				border: 7px solid #403F45;
@@ -65,12 +75,40 @@
 			<div id="wrapper">
 			<div id="main">
 			<div class = "donate" w3-include-html="donateForm.html"></div>
+			<section>
+				<div id="slideshow">
+					<div class="slide">
+						<img src="images/STANLEY.png" height="200" />
+					</div>
+					<div class="slide">
+						<img src="images/75th_Fairfield_logo.png" height="200" />
+					</div>
+					<div class="slide">
+						<img src="images/Harding.png" height="200"/>
+					</div>
+				</div>
+				</section>
+				 		<script>
+var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("slide");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 4000);
+}
+	</script>
 				<section>
 					<h3><em>Our Story</em></h3>
 					<figure><img src="images/logo2.jpg" /><figcaption>Spark City Team Logo</figcaption>
 					</figure>
-					<p>We are the first robotic team in Bridgeport District. Our goal is to promote excellence, and professionalism to our community. FIRST Robotics Competition allows us to expand and connect to many different fields of engineering.</p>
+					<p>We are the first robotic team in Bridgeport District. Our goal is to promote excellence, and professionalism to our community. FIRST Robotics Competition allows us to learn and connect.</p>
 				</section>
 				<br />
 				<iframe width="760" height="515" src="https://www.youtube.com/embed/pAkMPD2Q9kE" frameborder="0" allowfullscreen></iframe>
