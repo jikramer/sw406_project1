@@ -68,8 +68,12 @@ nav a{
 	
 }
 footer{
-background-color: #58575C;
-min-height: 150px;
+	text-align: center;
+	background-color: #58575C;
+	min-height: 150px;
+	padding: 30px;
+	color: white;
+	font-family:Arial, Helvetica, sans-serif;
 }
 .dropdown{
 	float:left;
