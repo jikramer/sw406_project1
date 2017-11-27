@@ -15,6 +15,50 @@
  				padding: 20px 20px;
  				margin: 0 auto;
  			}
+ 			h3{
+ 			padding: 20px 20px; font-size: 300%;
+ 			}
+ 			p{
+ 			font-size: 115%;
+ 			padding-left: 20px;
+ 			padding-right: 20px;
+ 			height: 200px;
+ 			}
+ 			iframe{
+ 				margin: 0 auto; display: block;
+ 				padding-top: 50px;
+ 			}
+ 			section figure img{
+ 				border: 7px solid #403F45;
+ 				border-bottom: none;
+ 			}
+ 			section figure{
+ 				display: block;
+ 				background-color: #403F45;
+ 				float: left;
+ 			}
+ 			section figure figcaption{
+ 				font-size: 15px;
+ 				font-style: italic;
+ 				color: #FFFFFF;
+ 			}
+ 			#pastEvents{
+				padding-top: 100px;
+				font-size: 50px;
+				text-align:center;	
+			}
+			#robotPics{
+				padding-top:50px;
+				font-size: 30px;
+				text-align:center;
+				alignment-adjust: central;	
+			}
+			#pastResults{
+				padding-top:50px;
+				text-align:center;
+				alignment-adjust: central;
+			}
+
  		</style>
 	</head>
 	<body>
@@ -31,16 +75,18 @@
 				<h1>Team History</h1>
 			</header>
 			
-			<div w3-include-html="./include/commonNav.html"></div>
+			<div w3-include-html="commonNav.html"></div>
 
 	     	<script>
 				w3.includeHTML();
 			</script>
 			<div id="wrapper">
 			<div id="main">
-			<div class = "donate" w3-include-html="./include/donateForm.html"></div>
-		<section>
-			<p>For more information about the competition please take a look at FIRST Robotic competition <a href="https://www.firstinspires.org/team-event-search/team?program=FRC&year=2011&number=3634">Past Events</a></p>
+			<div class = "donate" w3-include-html="donateForm.html"></div>
+		
+		<div id="pastEvents">
+			<a href="https://www.firstinspires.org/team-event-search/team?program=FRC&year=2011&number=3634">Past Events</a>
+		</div>	
 		<div id="robotPics">
 			<h2>Past Robot Designs</h2>
 			<img src="images/robot1.jpeg" height="500px" width="700px" />
@@ -48,16 +94,14 @@
 			<img src="images/robot3.jpeg" height="500px" width="700px" />
 		</div>
 		<div id="pastResults">
-			<h3>Past Competion Results</h3>
+			<h3 style="padding-top: 100px;font-size: 50px;text-align:center;">Past Competion Results</h3>
 			<img src="images/hartford results.png" height="500px" width="700px" />
 			<img src="images/hartford alliances results.png" height="500px" width="700px" />
 			<img src="images/waterbury results.png" height="500px" width="700px"/>
 			<img src="images/end season results.png" height="500px" width="700px"/>
 		</div>
-		</section>
 			<footer>
-				<div w3-include-html="./include/footer.html"></div>
- 			</footer>
+			</footer>
 		</div>
 	</body>
 </html>
