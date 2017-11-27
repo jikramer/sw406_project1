@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="main.css"/>
-		<link rel="stylesheet" href="jeff.css" />
- 		<script src="https://www.w3schools.com/lib/w3.js"></script>
+  		<script src="https://www.w3schools.com/lib/w3.js"></script>
 
 	</head>
 
@@ -20,7 +19,7 @@
 				</div>
 		</header>
 
-		<div w3-include-html="commonNav.html"></div>
+		<div w3-include-html="./include/commonNav.html"></div>
 
 	     <script>
 			w3.includeHTML();
@@ -28,15 +27,14 @@
 
  		<div id="wrapper">
 			<div id="main">
-			<div class = "donate" w3-include-html="donateForm.html"></div>
+			<div class = "donate" w3-include-html="./include/donateForm.html"></div>
 				<br>
-				<h2>Jobs</h2>
+				<h2 class="opps_h2">Jobs</h2>
 					<br>
-					<blockquote>Top 10 list of CS Jobs in industry today.</blockquote>
+					<blockquote class="opps_blockquote">Top 10 list of CS Jobs in industry today.</blockquote>
 					<br>
 
-						<div id="jobtable">
-							<table>
+			 				<table class="jobs_table">
 								<th>Rank  	</th>
 								<th>Job Title</th>
 								<th>Most Common Major</th>
@@ -128,19 +126,24 @@
 	 						</table>
 	 					</body>
 			<br>
-			<blockquote>
+			<blockquote class="opps_blockquote">
 				<a href src="https://www.payscale.com/college-salary-report/common-jobs-for-majors/computer-science?page=3">Full CS College Salary Report</a>
 	 		</blockquote>
 
 
 			<br>
-				<ul>
-					<li> <a href="./donate.html">Donate Here</a></li>
+				<ul class="opps_ul">
+					<li class="opps_li"> <a href="./donate.html">Donate Here</a></li>
 				</ul>
+
 
 			</div>
 
+			<footer>
+ 					<div w3-include-html="./include/footer.html"></div>
+			</footer>
+		</div>
 
-
-	</body>
+		</body>
+	
 </html>

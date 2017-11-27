@@ -26,8 +26,7 @@
 		margin-right: auto;
 	}
 	h2{
-		font-size: 300%;
-		font-style: italic;
+		font-style: bold;
 	}
 	p{
 		font-size: 110%;
@@ -49,7 +48,7 @@
 				</div>
 			</header>
 	 		
-			<div w3-include-html="commonNav.html"></div>
+			<div w3-include-html="./include/commonNav.html"></div>
  			     
 	     	<script>
 				w3.includeHTML();
@@ -57,8 +56,10 @@
      
 			<div id="wrapper">
 			<div id="main">
-					<h2>Mentorship</h2>
-					<p>If you are looking to mentor and support our team please contact us.</p>
+				<div class = "donate" w3-include-html="./include/donateForm.html"></div>
+				<br>
+					<h2>Join Us</h2>
+					<p>If you are looking to mentor and join our program please contact us.</p>
 					<br />
 					<form action="mailto:">
 						<table>
@@ -103,7 +104,8 @@
 					</form>
 					</div>
 			<footer>
-			</footer>
+ 					<div w3-include-html="./include/footer.html"></div>
+ 			</footer>
 		</div>
 
 	</body>
