@@ -2,64 +2,121 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-<link rel="stylesheet" href="main.css"/>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<link rel="stylesheet" href="main.css"/>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
 	</head>
-
+	<style>
+		dt {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 1em;
+			font-weight: bold;
+		}
+		dl {
+			text-align: left;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		dd {
+			padding-bottom: 30px;
+		}
+	</style>
 	<body>
-			<header>
-				<h1 id="left">Spark City FRC Team 3634</h1>
-				<div id="right">
-					<div id="social">Follow Our Social Media</div>
-					<a href="https://www.facebook.com/hardbotties3634"><img src="images/FB-f-Logo__blue_29.png"/></a>
-					<a href="https://www.youtube.com/user/hardbotties3634"><img src="images/youtube_social_squircle_red2.png" /></a>
-					<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
+		<header>
+			<h1 id="left">Spark City FRC Team 3634</h1>
+			<div id="right">
+				<div id="social">
+					Follow Our Social Media
 				</div>
-			</header>
-			<div w3-include-html="./include/commonNav.html"></div>
- 			     
-	     	<script>
-				w3.includeHTML();
-			</script>
-     
-<div id="wrapper">
+				<a href="https://www.facebook.com/hardbotties3634"><img src="images/FB-f-Logo__blue_29.png"/></a>
+				<a href="https://www.youtube.com/user/hardbotties3634"><img src="images/youtube_social_squircle_red2.png" /></a>
+				<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
+			</div>
+		</header>
+		<div w3-include-html="./include/commonNav.html"></div>
+
+		<script>
+			w3.includeHTML();
+		</script>
+
+		<div id="wrapper">
 			<div id="main">
 				<div class = "donate" w3-include-html="./include/donateForm.html"></div>
- 				<br>
+				<br>
 
 				<h1 style="text-align: center">Meet the Members of Team 3634</h1>
-				<div id="teampics">
-					<img style="float: left; padding-left: 30px; padding-right:15px " src="images/teampic1.jpg" width="50%" height="50%"/>
-					<img style="float: right; padding-right: 30px; padding-left:15px " src="images/teampic2.jpg" width="50%" height="50%"/>
-					
-				</div>	
-				<div>
-					<dl>
-						<dt><h3>Jahsheim Wright</h3></dt>
-							<dd>Hi my name is Jahseim Wright, at the moment I attend Warren Harding high school and have been with spark city for about a year now, and have been enjoying myself so far.
-</dd>
-						<dt><h3>Param Pithadia</h3></dt>
-							<dd>I’m a freshman at Fairchild Wheeler High School. I participated in many events such as FLL, hack-a-thons, FTC, VEX, EDR, and the Westport Maker Fair. Other than robotics I enjoy biking, play tennis, karate, drums, and guitar.</dd>
-						<dt><h3>Tremaine Smith Jr</h3></dt>
-							<dd>I am a Junior at Harding High School and I am currently pursuing for a career in engineering.
-</dd>
-						<dt><h3>Jonquil Harding-McCally</h3></dt>
-							<dd> I like video games, basketball, football, computers, and food.</dd>
-						<dt><h3>Christopher Fortich</h3></dt>
-							<dd>I’m 16 years old and from Paterson, New Jersey. I like soccer, anime, DC comic books, Rick and Morty, skateboarding since I was 12 and I love robotics. He went to </dd>
-						<dt><h3>Fabian Anderson</h3></dt>
-							<dd>memberdescriptioin</dd>
-						<dt><h3>Khloe Hill</h3></dt>
-							<dd> I am a 15 year old computer enthusiast. When I am not participating in Robotics, I am perfecting and learning computer programming languages. I am currently learning Javascript, C++, Python, HTML. I also enjoy programming and building with my personal arduino. In my free time when I am not working on anything computer science related I have fun making graphic designs, painting, and participating in NanoWrimo(National Novel Writing Month). I am homeschool</dd>
-						<dt><h3>membername</h3></dt>
-							<dd>memberdescriptioin</dd>
-					</dl>
+				<div id="teampics" style="text-align: center">
+					<img  src="images/teampic1.jpg" width="50%" height="50%"/>
 				</div>
+				<dl>
+					<dt>
+						Jahsheim Wright
+					</dt>
+					<dd>
+						Hi my name is Jahsheim Wright, at the moment I attend Warren Harding high school and have been with spark city for about a year now, and have been enjoying myself so far.
+					</dd>
+					<dt>
+						Param Pithadia
+					</dt>
+					<dd>
+						I’m a freshman at Fairchild Wheeler High School. I participated in many events such as FLL, hack-a-thons, FTC, VEX, EDR, and the Westport Maker Fair. Other than robotics I enjoy biking, play tennis, karate, drums, and guitar.
+					</dd>
+					<dt>
+						Tremaine Smith Jr
+					</dt>
+					<dd>
+						I am a Junior at Harding High School and I am currently pursuing for a career in engineering.
+					</dd>
+					<dt>
+						Jonquil Harding-McCally
+					</dt>
+					<dd>
+						I like video games, basketball, football, computers, and food.
+					</dd>
+					<dt>
+						Christopher Fortich
+					</dt>
+					<dd>
+						I’m 16 years old and from Paterson, New Jersey. I like soccer, anime, DC comic books, Rick and Morty, skateboarding since I was 12 and I love robotics. He went to
+					</dd>
+					<dt>
+						Fabian Anderson
+					</dt>
+					<dd>
+						memberdescriptioin
+					</dd>
+					<dt>
+						Khloe Hill
+					</dt>
+					<dd>
+						I am a 15 year old computer enthusiast. When I am not participating in Robotics, I am perfecting and learning computer programming languages. I am currently learning Javascript, C++, Python, HTML. I also enjoy programming and building with my personal arduino. In my free time when I am not working on anything computer science related I have fun making graphic designs, painting, and participating in NanoWrimo(National Novel Writing Month). I am homeschool
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						Christopher Fortich
+					</dt>
+					<dd>
+						I’m 16 years old and from Paterson, New Jersey. I like soccer, anime, DC comic books, Rick and Morty, skateboarding since I was 12 and I love robotics. He went to
+					</dd>
+					<dt>
+						Fabian Anderson
+					</dt>
+					<dd>
+						memberdescriptioin
+					</dd>
+					<dt>
+						Khloe Hill
+					</dt>
+					<dd>
+						I am a 15 year old computer enthusiast. When I am not participating in Robotics, I am perfecting and learning computer programming languages. I am currently learning Javascript, C++, Python, HTML. I also enjoy programming and building with my personal arduino. In my free time when I am not working on anything computer science related I have fun making graphic designs, painting, and participating in NanoWrimo(National Novel Writing Month). I am homeschool
+					</dd>
+				</dl>
 			</div>
+		</div>
 
-			<footer>
-				<div w3-include-html="./include/footer.html"></div>
-   			</footer>
+		<footer>
+			<div w3-include-html="./include/footer.html"></div>
+		</footer>
 		</div>
 	</body>
 </html>
