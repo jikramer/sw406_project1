@@ -6,7 +6,23 @@
 <link rel="stylesheet" href="main.css"/>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <style>
-	#main h2, #main p{
+ section{
+ 	box-sizing:border-box;
+ 	width:70%;
+ 	text-align: center;
+ 	display: block;
+ 	padding: 20px 20px;
+ 	margin: 0 auto;
+ 			}
+	h2{
+	font-style: bold;
+ 	text-align: center;
+ 	color:#d89b00;
+border-bottom: 2px solid #000000;
+font-size: 200%
+ }
+	 p{
+	 	padding-top: 10px;
 		text-align: center;
 	}
 	.label{
@@ -25,9 +41,6 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	h2{
-		font-style: bold;
-	}
 	p{
 		font-size: 110%;
 	}
@@ -35,17 +48,12 @@
 		height: 30px;
 		width: 70px;
 	}
+
 </style>
 	</head>
 	<body>
 			<header>
-				<h1 id="left">Spark City FRC Team 3634</h1>
-				<div id="right">
-					<div id="social">Follow Our Social Media</div>
-					<a href="https://www.facebook.com/hardbotties3634"><img src="images/FB-f-Logo__blue_29.png"/></a>
-					<a href="https://www.youtube.com/user/hardbotties3634"><img src="images/youtube_social_squircle_red2.png" /></a>
-					<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
-				</div>
+			<div w3-include-html="./include/header.html"></div>
 			</header>
 	 		
 			<div w3-include-html="./include/commonNav.html"></div>
@@ -58,10 +66,17 @@
 			<div id="main">
 				<div class = "donate" w3-include-html="./include/donateForm.html"></div>
 				<br>
+				<section>
 					<h2>Join Us</h2>
-					<p>If you are looking to mentor and join our program please contact us.</p>
+					<p>If you are looking to mentor or join our program please contact us. 
+						All students from the Bridgeport community are welcome into our program. 
+						 We are looking for motivated individuals that are ready to learn. 
+						 Our purpose is to connect students with people from the professional levels.
+						 It's a big opportunity if you are seeking to learn and connect. 
+						</p>
+					</section>
 					<br />
-					<form action="mailto:">
+					<form action="mailto:" method="">
 						<table>
 						<tr>
 							<td>
@@ -79,7 +94,7 @@
 									<td>
 								<label>Email Address</label></td>
 								<td>
-								<input class="label" type="text" name="Email"><br /></td>
+								<input class="label" type="text" name="Email" required="required"><br /></td>
 								</tr>
 								<tr>
 									<td>

@@ -21,10 +21,10 @@
 }
 
 .slide {
-    display: none;
+  display: none;
 }
 
- 			h3{
+			h3{
  			font-size: 250%;
  			text-align:center;
  			}
@@ -42,28 +42,26 @@
  				border: 7px solid #403F45;
  				border-bottom: none;
  			}
- 			section figure{
+ 			figure{
+ 				margin-top: 10px;
  				display: block;
  				background-color: #403F45;
  				float: left;
  			}
- 			section figure figcaption{
+ 			figure figcaption{
  				font-size: 15px;
- 				font-style: italic;
  				color: #FFFFFF;
+ 			}
+ 			h3{
+ 				color:#d89b00;
+ 				border-bottom: 5px solid #000000;
+ 				margin-bottom:10px;
  			}
  		</style>
 	</head>
 	<body>
 			<header>
-				<div id="right">
-					<div id="social">Follow Our Social Media</div>
-					<a href="https://www.facebook.com/hardbotties3634" target="_blank"><img src="images/FB-f-Logo__blue_29.png"/></a>
-					<a href="https://www.youtube.com/user/hardbotties3634" target="_blank"><img src="images/youtube_social_squircle_red2.png" /></a>
-					<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
-
-				</div>
-				<h1>FIRST Robotics Competition Spark City Team 3634</h1>
+				<div w3-include-html="./include/header.html"></div>
 			</header>
 
 			<div w3-include-html="./include/commonNav.html"></div>
@@ -107,14 +105,16 @@ function showSlides() {
 }
 	</script>
 				<section>
-					<h3><em>Our Story</em></h3>
+					<h3>Our Story</h3>
 					<figure><img src="images/logo2.jpg" /><figcaption>Spark City Team Logo</figcaption>
 					</figure>
-					<p>We are the first robotic team in Bridgeport District. Our goal is to promote excellence, and professionalism to our community. FIRST Robotics Competition allows us to learn and connect.</p>
+					<p>We are Spark City. We are the first robotic team in Bridgeport District to compete in FIRST Robotics Competition. 
+						Our goal is to promote excellence, and professionalism to our community. 
+						FIRST Robotics Competition allows us to learn and connect. </p>
 				</section>
 				<br />
-				<section>
-				<!-- <h3><em>Tribute to Our History</em></h3>
+				<!-- <section>
+				<h3><em>Tribute to Our History</em></h3>
 				<iframe width="760" height="515" src="https://www.youtube.com/embed/pAkMPD2Q9kE" frameborder="0" allowfullscreen></iframe>
 				</section>-->
 			</div>

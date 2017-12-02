@@ -24,9 +24,9 @@ background-repeat: repeat;
 text-align: center;
 }
 header h1{
-	text-shadow: 1.4px 1.4px 1.4px #FFCF40;
+	text-shadow: 1.4px 1.4px 1.4px #d89b00;
 	font-weight: bold;
-	font-style: italic;
+	/*font-style: italic;*/
 	font-size:300%;
 	color: white;
 }
@@ -36,13 +36,13 @@ header h1{
 	margin: 10px 10px;
 }
 #right a img{
-	margin-top: 10px;
+	margin-left: 5px;
 	border: none;
 	float: left;
 }
 #social{
-	border-bottom: 3px dashed black;
-	font: bold italic 110% helvetica;
+	font: bold 110% helvetica;
+	color:#FFFFFF;
 }
 #main{
 	background-color: white;
@@ -77,7 +77,6 @@ footer{
 	font-style: italic;
 	/*min-height: 150px;*/
  	padding:10px, 10px, 10px, 10px; 
-
  	color: white;
 	font-family:Arial, Helvetica, sans-serif;
 }
