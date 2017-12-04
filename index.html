@@ -10,10 +10,10 @@
  			section{
  				box-sizing:border-box;
  				width:70%;
- 				text-align: center;
  				display: block;
  				padding: 20px 20px;
  				margin: 0 auto;
+ 				margin-bottom: 20px;
  			}
 .slideshow{
   position: relative;
@@ -21,11 +21,12 @@
 }
 
 .slide {
-    display: none;
+  display: none;
 }
 
- 			h3{
- 			padding: 20px 20px; font-size: 300%;
+			h3{
+ 			font-size: 250%;
+ 			text-align:center;
  			}
  			p{
  			font-size: 115%;
@@ -41,30 +42,28 @@
  				border: 7px solid #403F45;
  				border-bottom: none;
  			}
- 			section figure{
+ 			figure{
+ 				margin-top: 10px;
  				display: block;
  				background-color: #403F45;
  				float: left;
+ 				margin-right:10px;
  			}
- 			section figure figcaption{
+ 			figure figcaption{
  				font-size: 15px;
- 				font-style: italic;
  				color: #FFFFFF;
+ 				text-align:center;
+ 			}
+ 			h3{
+ 				color:#d89b00;
+ 				border-bottom: 3px solid #000000;
+ 				margin-bottom:10px;
  			}
  		</style>
 	</head>
 	<body>
 			<header>
-				<div id="right">
-					<div id="social">Follow Our Social Media</div>
-					<a href="https://www.facebook.com/hardbotties3634" target="_blank"><img src="images/FB-f-Logo__blue_29.png"/></a>
-					<a href="https://www.youtube.com/user/hardbotties3634" target="_blank"><img src="images/youtube_social_squircle_red2.png" /></a>
-					<a href=""><img src="images/Twitter_Social_Icon_Rounded_Square_Color2.png" /></a>
-					<a href=""><img src="" /></a>
-
-
-				</div>
-				<h1>FIRST Robotics Competition Spark City Team 3634</h1>
+				<div w3-include-html="./include/header.html"></div>
 			</header>
 
 			<div w3-include-html="./include/commonNav.html"></div>
@@ -76,15 +75,25 @@
 			<div id="main">
 			<div class = "donate" w3-include-html="./include/donateForm.html"></div>
 			<section>
+				<h3>Spark City Team 3634</h3>	
+		<p style="text-align: left;">We are Sparky City. We are part of the offcial FRC team. FRC is an organization that host torunaments for robotics team.
+			Their goal is to inpire young people to be science and technology leaders and innovators, by engaging them in exciting Mentor-based programs that build science,
+			 engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.		
+					</p>
+	</section>
+			<section>
 				<div id="slideshow">
 					<div class="slide">
-						<img src="images/Bridgeportschools.png" height="200" />
+						<img src="images/prathna4.jpeg" height="400"/>
 					</div>
 					<div class="slide">
-						<img src="images/75th_Fairfield_logo.png" height="200" />
+						<img src="images/prathna1.jpeg" height="400"/>
 					</div>
 					<div class="slide">
-						<img src="images/Harding.png" height="200"/>
+						<img src="images/prathna5.jpeg" height="400"/>
+					</div>
+					<div class="slide">
+						<img src="images/prathna6.jpeg" height="400"/>
 					</div>
 				</div>
 				</section>
@@ -105,18 +114,19 @@ function showSlides() {
 }
 	</script>
 				<section>
-					<h3><em>Our Story</em></h3>
+					<h3>Our Story</h3>
 					<figure><img src="images/logo2.jpg" /><figcaption>Spark City Team Logo</figcaption>
 					</figure>
-					<p>We are the first robotic team in Bridgeport District. Our goal is to promote excellence, and professionalism to our community. FIRST Robotics Competition allows us to learn and connect.</p>
+					<p>Spark City the first robotic team in Bridgeport District to compete in FIRST Robotics Competition. 
+						Our goal is to promote excellence, and professionalism to our community. 
+						FIRST Robotics Competition allows us to learn and connect. </p>
 				</section>
 				<br />
-				<iframe width="760" height="515" src="https://www.youtube.com/embed/pAkMPD2Q9kE" frameborder="0" allowfullscreen></iframe>
-			</div>
+						</div>
 			<footer>			
 				<div w3-include-html="./include/footer.html"></div>
   			</footer>
-		    
+
 		</div>
 	</body>
 </html>

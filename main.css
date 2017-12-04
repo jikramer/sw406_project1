@@ -18,15 +18,17 @@ min-height: 1000px;
 header{
 background-color:#FFDF00;
 min-height: 200px;
-background-image:url("images/halftone-yellow.png");
+background-image:url("images/prathna41.jpeg");
+background-position: center;
 background-repeat: repeat;
 text-align: center;
 }
 header h1{
-	text-shadow: 1.4px 1.4px 1.4px #403F45;
+	text-shadow: 1.4px 1.4px 1.4px #d89b00;
 	font-weight: bold;
-	font-style: italic;
+	/*font-style: italic;*/
 	font-size:300%;
+	color: white;
 }
 #right{
 	display: block;
@@ -34,13 +36,13 @@ header h1{
 	margin: 10px 10px;
 }
 #right a img{
-	margin-top: 10px;
+	margin-left: 5px;
 	border: none;
 	float: left;
 }
 #social{
-	border-bottom: 3px dashed black;
-	font: bold italic 110% helvetica;
+	font: bold 110% helvetica;
+	color:#FFFFFF;
 }
 #main{
 	background-color: white;
@@ -75,7 +77,6 @@ footer{
 	font-style: italic;
 	/*min-height: 150px;*/
  	padding:10px, 10px, 10px, 10px; 
-
  	color: white;
 	font-family:Arial, Helvetica, sans-serif;
 }
@@ -94,8 +95,8 @@ footer{
 	font-size:16px;
 	border: none;
 	outline: none;
-	color:#F5F5F5 /*black*/;
-	background-color: #403F45 /*#F5F5F5*/;
+	color:#F5F5F5; /*black*/;
+	background-color: #403F45; /*#F5F5F5*/;
 	font-weight: bold;
 	font-family:Arial, Helvetica, sans-serif;
 	padding: 20px 20px;
@@ -105,7 +106,7 @@ footer{
 	position: absolute;
 	min-width: 180px;
 	z-index: 1;
-	background-color: #403F45 /*white*/;
+	background-color: #403F45; /*white*/;
 }
 .dropdown-content a{
 	color: #F5F5F5;
