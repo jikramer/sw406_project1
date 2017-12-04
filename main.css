@@ -48,13 +48,13 @@ header h1{
 }
 
 nav{
-overflow: hidden;
-background-color: #403F45;
+	overflow: hidden;
+	background-color: #403F45;
+ }
 
-}
 #center{
 	display: block;
-	margin-left: 10%;
+	margin-left: 20%;
 	margin-right: 10%;
 }
 nav a{
@@ -69,12 +69,22 @@ nav a{
 }
 footer{
 	text-align: center;
-	background-color: #58575C;
-	min-height: 150px;
-	padding: 30px;
-	color: white;
+	/*background-color: #58575C;*/
+	background-color: #403F45;  /*#footer & header same color*/
+	font-size: 12px;
+	font-style: italic;
+	/*min-height: 150px;*/
+ 	padding:10px, 10px, 10px, 10px; 
+
+ 	color: white;
 	font-family:Arial, Helvetica, sans-serif;
 }
+
+.footernav{
+		text-align:left;
+	}
+
+
 .dropdown{
 	float:left;
 	overflow:hidden;
@@ -112,9 +122,88 @@ nav a:hover , .dropdown:hover .drop{
 	background-color: #FFDF00;
 	color: black;
 }
+ /*jk */
+
+.jobs_table{
+		margin: auto;
+		border: 2px solid #58575C;
+ 		border-collapse: collapse;
+ 		padding-right: .5em;
+		width: 90%;
+		background-image:url("images/dust_scratches.png");
+		background-repeat: repeat;
+}
+
+.jobs_table td, th{ 
+		padding:.5em;
+		border-left: 2px solid #58575C;
+		border-right: 2px solid #58575C;
+		
+}
 
 
-/*jk added made a new css*/
+
+.opps_h2 : center;
+}
+
+.opps_h3{
+	padding-left:20px;
+}
+
+.opps_blockquote{
+	padding-left:25px;
+}
+
+
+
+.white{
+	background-image:url("images/dust_scratches.png");
+	background-repeat: repeat; 
+}
+.yellow{
+	background-image:url("images/halftone-yellow.png");
+	background-repeat: repeat;
+}
+
+
+
+.opps_ul_title{
+		font-weight: bold;
+		padding-left:20px;
+		padding-right:20px;
+		font-size:18px;		
+}
+
+.opps_ul{
+	padding-left:40px;
+	padding-right:40px;
+ }
+
+.opps_li 	{
+ 	font:italic bold 16px;
+ 
+ }
+
+.opps_dt {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.opps_dd{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+   
+.opps_h2{
+ 	text-align: center;
+}
+
+.opps_h3{
+	padding-left:20px;
+}
+
+.opps_blockquote{
+	padding-left:25px;
+}
 
 /* SL added */
 #teampics{
@@ -129,3 +218,22 @@ nav a:hover , .dropdown:hover .drop{
 }
 
 
+
+.opps_ul_title{
+		font-weight: bold;
+		padding-left:20px;
+		padding-right:20px;
+		font-size:18px;		
+}
+
+.opps_ul{
+	padding-left:40px;
+	padding-right:40px;
+ }
+
+.opps_li 	{
+ 	font:italic bold 16px;
+  opps_dd{
+	padding-left: 30px;
+	padding-right: 30px;
+}

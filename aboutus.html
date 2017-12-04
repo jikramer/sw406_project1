@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="main.css"/>
 		<title> About Us</title>
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
+
 		<style>
 		footer {
 			background-color: red;
@@ -13,28 +14,42 @@
 			text-indent: 10px;
 		}
 		img {
-			
+			float: right;
+			padding-left: 10px;
+			padding-right: 10px;
+		
 		}
+		h2 {
+			text-align: center;
+		}
+		
 	</style>
+
 	</head>
 
 	<body>
 		<header>
 			<h1>Spark City FRC Team 3634</h1>
 		</header>
-					<div w3-include-html="commonNav.html"></div>
+					<div w3-include-html="./include/commonNav.html"></div>
  			     
 	     	<script>
 				w3.includeHTML();
 			</script>
-		<div id="wrapper">
+		 
+		 <div id="wrapper">
 			<div id="main">
+				<div class = "donate" w3-include-html="./include/donateForm.html"></div>
+ 					<br>
+
 				<h2>Our Mission</h2>
 				<q>Promote oportunities for Bridgeport community by providing a platform for students to learn, connect, and explore into the field of engineering.
 					To spread STEM awareness to the Greater Bridgeport Area. Our goal is to strive as a team, encourage professionalism, and build relationships with our community.</q>
 				<h2> What is FRC?</h2>
 				<q>FIRST Robotics Competition is an international high school robotics competition. Each year, teams of high school students, coaches, and mentors work during a six-week period to build game-playing robots that weigh up to 120 pounds.</q>
-				<img src="images/FRCicon.jpg" alt="FRC">
+				<br>
+				<br>
+				<img src="images/FRCicon.jpg" alt="FRC" height="250" width="250" align="right">
 				<h3> List of high schools team members are in: </h3>
 				<ol>
 					<li>
@@ -47,34 +62,64 @@
 						Central High School
 					</li>
 				</ol>
-				<h3> Information about Fairfield Engineering and class courses: </h3>
+				<br>
+				<h2> Information about Fairfield Engineering and class courses: </h2>
 				<ul>
-				EG 0260 Robots 3 Credits
-				Prerequisite: PS 0115.
+				<br>
+				<ol>
+				<b>EG 0260 Robots 3 Credits
+				Prerequisite: PS 0115.</b>
+				</ol>
 				</ul>
-				
+				<p>
+				<ol>
 				Introductory course in robotics develops understanding of how robotic systems integrate sensors, actuators, and control systems to achieve specific goals.
+				</ol>
+				<br>
+				<ol>
 				Principles of autonomy, programming, wireless communications, sensor applications, mechatronics, electrical power, electric motors, pneumatics, structure, and locomotion will be understood and applied.
+				</ol>
+				<br>
+				<ol>
 				Design of robotic subsystems will utilize multiple areas of knowledge. 
+				</ol>
+				<br>
+				<ol>
 				The course will involve application of statistical analysis to quantify robot performance. 
+				</ol>
+				<br>
+				<ol>
 				Service learning is an integral part of the course. 
+				</ol>
+				<br>
+				<ol>
 				All participants will participate in weekly mentoring of a youth robotics competition team to put into practice the principles learned in class, and to learn through community interaction from other students using robots to accomplish different feats.
+				</ol>
+				</p>
+				<br>
+				<br>
 				
-				SW 0304 Web Development 3 Credits
+				<b>SW 0304 Web Development 3 Credits
 				Attributes: ENPC Digital Journalism Production Component
 				Prerequisite: CS 0131.
-				This course introduces the student to developing applications for use on the World Wide Web. Students learn basic n-tier concepts for designing distributed applications and gain hands on experience through the construction of Web-based applications. The course covers concepts that allow communication over the Web. This includes designing and authoring Web pages, markup languages, the client-side document object model, usability, search engine optimization, and client-side dynamic Web pages
-				
+				</b>
+				<p>
+				This course introduces the student to developing applications for use on the World Wide Web.
+				Students learn basic n-tier concepts for designing distributed applications and gain hands on experience through the construction of Web-based applications.
+				The course covers concepts that allow communication over the Web. 
+				This includes designing and authoring Web pages, markup languages, the client-side document object model, usability, search engine optimization, and client-side dynamic Web pages.
+				</p>
 				
 				<ul>
 					<li> <a href="./donate.html">Donate Here</a></li>
 				</ul>
 			</div>
 
-			<footer>
-				<br>
-				<a href="mailto:robotics@yahoo.com> Robotics Email</a>
-			</footer>
+			<footer>			
+				<div w3-include-html="./include/footer.html"></div>
+  			</footer>
+		
 		</div>
+		
 	</body>
 </html>

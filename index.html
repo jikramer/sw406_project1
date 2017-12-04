@@ -67,14 +67,14 @@
 				<h1>FIRST Robotics Competition Spark City Team 3634</h1>
 			</header>
 
-			<div w3-include-html="commonNav.html"></div>
+			<div w3-include-html="./include/commonNav.html"></div>
 
 	     	<script>
 				w3.includeHTML();
 			</script>
 			<div id="wrapper">
 			<div id="main">
-			<div class = "donate" w3-include-html="donateForm.html"></div>
+			<div class = "donate" w3-include-html="./include/donateForm.html"></div>
 			<section>
 				<div id="slideshow">
 					<div class="slide">
@@ -113,14 +113,10 @@ function showSlides() {
 				<br />
 				<iframe width="760" height="515" src="https://www.youtube.com/embed/pAkMPD2Q9kE" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<footer>
-				Partnered with:<br />
-				Fairfield University School of Engineering<br />
-				1073 North Benson Road<br />
-				Fairfield CT 06824<br />
-				<br />
-				Phone: 
-			</footer>
+			<footer>			
+				<div w3-include-html="./include/footer.html"></div>
+  			</footer>
+		    
 		</div>
 	</body>
 </html>
