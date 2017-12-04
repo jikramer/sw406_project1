@@ -7,11 +7,19 @@
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
 
 		<style>
+		section{
+ 				box-sizing:border-box;
+ 				width:95%;
+ 				display: block;
+ 				padding: 20px 20px;
+ 				margin: 0 auto;
+ 				margin-bottom: 20px;
+ 			}
 		footer {
 			background-color: red;
 		}
-		ol {
-			text-indent: 10px;
+		ol,ul {
+			margin-left: 30px;
 		}
 		img {
 			float: right;
@@ -19,9 +27,11 @@
 			padding-right: 10px;
 		
 		}
-		h2 {
-			text-align: center;
-		}
+			h2{
+ 				color:#d89b00;
+ 				border-bottom: 3px solid #000000;
+ 				margin-bottom:10px;
+ 			}
 		
 	</style>
 
@@ -41,12 +51,13 @@
 			<div id="main">
 				<div class = "donate" w3-include-html="./include/donateForm.html"></div>
  					<br>
-
+<section>
 				<h2>Our Mission</h2>
-
-							<q>Promote opportunities for Bridgeport community by providing a platform for students to learn, connect, and explore the field of engineering. 
+				<section>
+							<q style="font-size: 140%; font-style: italic;">Promote opportunities for Bridgeport community by providing a platform for students to learn, connect, and explore the field of engineering. 
 					To spread STEM awareness to the Greater Bridgeport Area. 
 					Our goal is to strive as a team, encourage professionalism, and build relationships with our community.</q>	
+				</section>
 				<h2> What is FRC?</h2>
 				<q>FIRST Robotics Competition is an international high school robotics competition. Each year, teams of high school students, coaches, and mentors work during a six-week period to build game-playing robots that weigh up to 120 pounds.</q>
 				<br>
@@ -72,31 +83,32 @@
 				<b>EG 0260 Robots 3 Credits
 				Prerequisite: PS 0115.</b>
 				</ol>
-				</ul>
+				
 				<p>
-				<ol>
+				<li>
 				Introductory course in robotics develops understanding of how robotic systems integrate sensors, actuators, and control systems to achieve specific goals.
-				</ol>
+				</li>
 				<br>
-				<ol>
+				<li>
 				Principles of autonomy, programming, wireless communications, sensor applications, mechatronics, electrical power, electric motors, pneumatics, structure, and locomotion will be understood and applied.
-				</ol>
+				</li>
 				<br>
-				<ol>
+				<li>
 				Design of robotic subsystems will utilize multiple areas of knowledge. 
-				</ol>
+				</li>
 				<br>
-				<ol>
+				<li>
 				The course will involve application of statistical analysis to quantify robot performance. 
-				</ol>
+				</li>
 				<br>
-				<ol>
+				<li>
 				Service learning is an integral part of the course. 
-				</ol>
+				</li>
 				<br>
-				<ol>
+				<li>
 				All participants will participate in weekly mentoring of a youth robotics competition team to put into practice the principles learned in class, and to learn through community interaction from other students using robots to accomplish different feats.
-				</ol>
+				</li>
+				</ul>
 				</p>
 				<br>
 				<br>
@@ -111,10 +123,7 @@
 				The course covers concepts that allow communication over the Web. 
 				This includes designing and authoring Web pages, markup languages, the client-side document object model, usability, search engine optimization, and client-side dynamic Web pages.
 				</p>
-				
-				<ul>
-					<li> <a href="./donate.html">Donate Here</a></li>
-				</ul>
+				</section>
 			</div>
 
 			<footer>			
