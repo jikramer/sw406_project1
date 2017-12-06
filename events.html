@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Robotic Team</title>
+		<title>District Events</title>
 		<link rel="stylesheet" href="main.css"/>
 		<link rel="stylesheet" href="slide.css" />
  		<script src="https://www.w3schools.com/lib/w3.js"></script>
@@ -22,9 +22,20 @@
 border-bottom: 2px solid #000000;
 font-size: 200%
  }
- table{
- 	border-collapse:collapse;
- }
+table {
+	width: 600px;
+	border: 2px solid #0000A0;
+	text-align: center;
+	border-collapse: collapse;
+	margin: auto;
+}
+.category{
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #003366;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #667;
+}
  p{
  	font-size: 115%;
  }
@@ -45,33 +56,44 @@ font-size: 200%
 			<div id="main">
 				<section>
 				<h2>Events</h2>
-				<p>The competitions are held yearly. In the spring of 2018, our team will compete at Fairfield University. Please come cheer us!</p>
-				<!--add image rexplex-->
+				<p>The competitions are held yearly. In the spring of 2018, our team will compete at Fairfield University. Please come cheer for us!</p>
+				<br>
+				<br>
+				<a href="https://frc-events.firstinspires.org/2018/CTSCT" target="_blank">
+				<img src="images/recplex.jpg" alt="REC" height="250" width="250" align="right">
+				</a>
+				<a href="https://frc-events.firstinspires.org/2018/CTHAR" target="_blank">
+				<img src="images/hartford.jpg" alt="HAR" height="250" width="250" align="left">
+				</a>
 				<table>
 					<tr>
 						<td colspan="3">
 						</td>
 					</tr>
 					<tr>
-						<td>District</td>
-						<td>Location</td>
-						<td>Date</td>
+						<td class="category">District</td>
+						<td class="category">Location</td>
+						<td class="category">Date</td>
 					</tr>
 					<tr>
-						<td></td>
-						<td></td> 
+						<td>Southern CT District</td>
+						<td>Fairfield University</td> 
+						<td> March 16-18</td>
 					</tr>
 					<tr>
-						<td></td>
-						<td></td>
+						<td>Hartford District</td>
+						<td>Hartford Public High School</td>
+						<td> April 6-8</td>
 					</tr>
 				</table>
-<p>For more information regarding the events please visit the <a href="https://frc-events.firstinspires.org/2018/events">Official FRC website</a>.</p>
+				<br>
+				<br>
+<p>For more information regarding the events please visit the <a href="https://frc-events.firstinspires.org/2018/events" target="_blank">Official FRC website</a>.</p>
 </section>
 			</div>
 
 			<footer>
-				
+			<div w3-include-html="./include/footer.html"></div>
 			</footer>
 		</div>
 	</body>
