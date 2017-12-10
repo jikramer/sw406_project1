@@ -5,97 +5,97 @@
 		<title>District Events</title>
 		<link rel="stylesheet" href="main.css"/>
 		<link rel="stylesheet" href="slide.css" />
- 		<script src="https://www.w3schools.com/lib/w3.js"></script>
- 		<style>
- 	section{
- 	box-sizing:border-box;
- 	width:70%;
- 	text-align: center;
- 	display: block;
- 	padding: 20px 20px;
- 	margin: 0 auto;
- 			}
-	h2{
-	font-style: bold;
- 	text-align: center;
- 	color:#d89b00;
-border-bottom: 2px solid #000000;
-font-size: 200%
- }
-table {
-	width: 600px;
-	border: 2px solid #0000A0;
-	text-align: center;
-	border-collapse: collapse;
-	margin: auto;
-}
-.category{
-	font-weight: bold;
-	background-color: #FFFFFF;
-	color: #003366;
-	font-size: 1.1em;
-	text-shadow: 1px 1px 1px #667;
-}
- p{
- 	font-size: 115%;
- }
- 		</style>
- 		</head>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<style>
+			section {
+				box-sizing: border-box;
+				width: 70%;
+				text-align: center;
+				display: block;
+				padding: 20px 20px;
+				margin: 0 auto;
+			}
+			h2 {
+				font-style: bold;
+				text-align: center;
+				color: #d89b00;
+				border-bottom: 2px solid #000000;
+				font-size: 200%
+			}
+			img{
+				margin-bottom: 50px;
+			}
+			table {
+				width: 600px;
+				border: 2px solid #0000A0;
+				text-align: center;
+				border-collapse: collapse;
+				margin:auto;
+			}
+			.category {
+				font-weight: bold;
+				background-color: #FFFFFF;
+				color: #003366;
+				font-size: 1.1em;
+				text-shadow: 1px 1px 1px #667;
+			}
+			p {
+				font-size: 115%;
+			}
+		</style>
+	</head>
 
 	<body>
-			<header>
-				<div w3-include-html="./include/header.html"></div>
-			</header>
+		<header>
+			<h1>District Events</h1>
+		</header>
 
-			<div w3-include-html="./include/commonNav.html"></div>
+		<div w3-include-html="./include/commonNav.html"></div>
 
-	     	<script>
-				w3.includeHTML();
-			</script>
-			<div id="wrapper">
+		<script>
+			w3.includeHTML();
+		</script>
+		<div id="wrapper">
 			<div id="main">
 				<div class = "donate" w3-include-html="./include/donateForm.html"></div>
- 					<br>
+				<br>
 				<section>
-				<h2>Events</h2>
-				<p>The competitions are held yearly. In the spring of 2018, our team will compete at Fairfield University. Please come cheer for us!</p>
-				<br>
-				<br>
-				<a href="https://frc-events.firstinspires.org/2018/CTSCT" target="_blank">
-				<img src="images/recplex.jpg" alt="REC" height="250" width="250" align="right">
-				</a>
-				<a href="https://frc-events.firstinspires.org/2018/CTHAR" target="_blank">
-				<img src="images/hartford.jpg" alt="HAR" height="250" width="250" align="left">
-				</a>
-				<table>
-					<tr>
-						<td colspan="3">
-						</td>
-					</tr>
-					<tr>
-						<td class="category">District</td>
-						<td class="category">Location</td>
-						<td class="category">Date</td>
-					</tr>
-					<tr>
-						<td>Southern CT District</td>
-						<td>Fairfield University</td> 
-						<td> March 16-18</td>
-					</tr>
-					<tr>
-						<td>Hartford District</td>
-						<td>Hartford Public High School</td>
-						<td> April 6-8</td>
-					</tr>
-				</table>
-				<br>
-				<br>
-<p>For more information regarding the events please visit the <a href="https://frc-events.firstinspires.org/2018/events" target="_blank">Official FRC website</a>.</p>
-</section>
+					<h2>Events</h2>
+					<p>
+						The competitions are held yearly. In the spring of 2018, our team will compete at Fairfield University. Please come cheer for us!
+					</p>
+					<br>
+					<br>
+					<a href="https://frc-events.firstinspires.org/2018/CTSCT" target="_blank"> <img src="images/recplex.jpg" alt="REC" height="200" width="250" align="right"> </a>
+					<a href="https://frc-events.firstinspires.org/2018/CTHAR" target="_blank"> <img src="images/hartford.jpg" alt="HAR" height="200" width="250" align="left"> </a>
+		
+					<table>
+						<tr>
+							<td class="category">District</td>
+							<td class="category">Location</td>
+							<td class="category">Date</td>
+						</tr>
+						<tr>
+							<td>Southern CT District</td>
+							<td><a href="https://www.fairfield.edu/directions/" target="_blank">Fairfield University </a></td>
+							<td> March 16-18</td>
+						</tr>
+						<tr>
+							<td>Hartford District</td>
+							<td><a href="https://www.hartfordschools.org/" target="_blank">Hartford Public High School </a></td>
+							<td> April 6-8</td>
+						</tr>
+					</table>
+					<br>
+					<br>
+					<p>
+						For more information regarding the events please visit the <a href="https://frc-events.firstinspires.org/2018/events" target="_blank">Official FRC website</a>.
+					</p>
+				</section>
 			</div>
 
 			<footer>
-			<div w3-include-html="./include/footer.html"></div>
+				<div w3-include-html="./include/footer.html"></div>
 			</footer>
 		</div>
 	</body>
