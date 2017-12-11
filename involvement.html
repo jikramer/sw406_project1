@@ -26,16 +26,15 @@ font-size: 200%
 		text-align: center;
 	}
 	.label{
-		margin: 10px 5px 5px 5px;
 		height: 30px;
 		width: 200px;
+		margin: 10px 10px;
 	}
 	textarea{
 		margin: 10px 5px 5px 5px;
 		height: 200px;
 		width: 600px;
 		font-family: Arial, Helvetica, sans-serif;
-		
 	}
 	table{
 		margin-left: auto;
@@ -44,7 +43,8 @@ font-size: 200%
 	p{
 		font-size: 110%;
 	}
-	#submitSize{
+	.submitSize{
+		margin-top: 5px;
 		height: 30px;
 		width: 70px;
 	}
@@ -64,7 +64,6 @@ font-size: 200%
      
 			<div id="wrapper">
 			<div id="main">
-				<div class = "donate" w3-include-html="./include/donateForm.html"></div>
 				<br>
 				<section>
 					<h2>Join Us</h2>
@@ -109,14 +108,17 @@ font-size: 200%
 									</td>
 								</tr>
 								<tr>
-									<td>
+									<td style="padding-top: 10px;" valign="top">
 								<label>Message:</label></td>
 								<td>
 								<textarea rows="5" clos="100" name="message" form="usrform"></textarea></td>
 								</tr>
 								<tr>
-									<td colspan="2">
-									<input id="submitSize" type="submit" value="Submit"/>
+									<td>
+										
+									</td>
+									<td>
+									<input class="submitSize" type="submit" value="Submit"/> <input class="submitSize" type="reset" value="Reset"/>
 									</td>
 								</tr>
 						</table>
