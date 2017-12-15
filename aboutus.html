@@ -2,149 +2,123 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<title>Robotic Team</title>
 		<link rel="stylesheet" href="main.css"/>
-		<title> About Us</title>
-		<script src="https://www.w3schools.com/lib/w3.js"></script>
-
-		<style>
-		section{
- 				box-sizing:border-box;
+		<link rel="stylesheet" href="slide.css" />
+ 		<script src="https://www.w3schools.com/lib/w3.js"></script>
+ 		<style>
+ 			section{
+ 				display:block;
  				width:95%;
- 				display: block;
+ 				padding: 20px 20px;
+ 				margin: 0 auto;
+ 				margin-bottom: 20px;
+ 				min-height: 400px;
+ 			}
+ 			 	#slideBlock{
+ 				display:block;
+ 				width:60%;
  				padding: 20px 20px;
  				margin: 0 auto;
  				margin-bottom: 20px;
  			}
-		ol,ul {
-			margin-left: 30px;
-		}
-		img{
-			float: right;
-			padding-left: 10px;
-		
-		}
-			h2{
- 				color:#d89b00;
- 				border-bottom: 3px solid #000000;
- 				margin-bottom:10px;
+.slideshow{
+  position: relative;
+}
+.slide {
+  display: none;
+}
+p{
+ 			font-size: 115%;
+ 			text-indent: 40px;
+ 			text-align:left;
+ 			}
+ 			section figure img{
+ 				border: 7px solid #403F45;
+ 				border-bottom: none;
+ 			}
+ 			figure{
+ 				margin-top: 10px;
+ 				display: block;
+ 				background-color: #403F45;
+ 				float: left;
+ 				margin-right:10px;
+ 			}
+ 			figure figcaption{
+ 				font-size: 15px;
+ 				color: #FFFFFF;
+ 				text-align:center;
  			}
  			h1{
  				padding-left: 200px;
  			}
-		
-	</style>
-
+ 			h3{
+ 				font-size: 300%;
+ 				text-align:center;
+ 				color:#d89b00;
+ 				border-bottom: 3px solid #000000;
+ 				margin-bottom:10px;
+ 				padding-top:20px;
+ 			}
+ 			#pastEvents{
+				padding-top: 100px;
+				font-size: 50px;
+				text-align:center;	
+			}
+			#robotPics{
+				padding-top:50px;
+				font-size: 30px;
+				text-align:center;
+				alignment-adjust: central;	
+			}
+			#pastResults{
+				padding-top:50px;
+				text-align:center;
+				alignment-adjust: central;
+			}
+ 		</style>
 	</head>
-
 	<body>
-<header>
-				<div w3-include-html="./include/header.html"></div>
-				<h1>About Us</h1>
-			</header>
+		<header>
+			<div w3-include-html="./include/header.html"></div>
+			<h1>Team History</h1>
+		</header>
 
 			<div w3-include-html="./include/commonNav.html"></div>
 
 	     	<script>
 				w3.includeHTML();
 			</script>
-		 
-		 <div id="wrapper">
+			<div id="wrapper">
 			<div id="main">
- 					<br>
-<section>
-				<h2>Our Mission</h2>
-				<section>
-							<q style="font-size: 140%; font-style: italic;">Promote opportunities for Bridgeport community by providing a platform for students to learn, connect, and explore the field of engineering. 
-					To spread STEM awareness to the Greater Bridgeport Area. 
-					Our goal is to strive as a team, encourage professionalism, and build relationships with our community.</q>	
-				</section>
-				<h2> What is FRC?</h2>
-				<q>FIRST Robotics Competition is an international high school robotics competition. Each year, teams of high school students, coaches, and mentors work during a six-week period to build game-playing robots that weigh up to 120 pounds.</q>
-				<br>
-				<br>
-				<a href="https://www.firstinspires.org" target="_blank">
-				<img src="images/FRCicon.jpg" alt="FRC" height="250" width="250" align="right">
-				</a>
-				<h2> List of participating high school team members </h2>
-				<ol>
-					<li>
-						<a href="http://bridgeport.ct.schoolwebpages.com/education/components/layout/default.php?sectionid=352&url_redirect=1" target="_blank"> Harding High School </a>
-					</li>
-					<li>
-						<a href="http://fairchildwheeler.org" target="_blank">Fairchild Wheeler High School </a>
-					</li>
-					<li>
-						<a href="https://sites.google.com/a/bridgeportps.net/central/" target="_blank">Central High School </a>
-					</li>
-				</ol>
-				<br>
-				<h2> Information about Fairfield Engineering Partnership Courses </h2>
-				<ul>
-				<br>
-				<ol>
-				<b>EG 0260 Robots</b>
-				</ol>
-				
-				<p>
-				<br>
-				<li>
-				Introductory course in robotics, develops understanding of how robotic systems integrate sensors, actuators, and control systems to achieve specific goals.
-				</li>
-				<br>
-				<li>
-				Principles of autonomy, programming, wireless communications, sensor applications, mechatronics, electrical power, electric motors, pneumatics, structure, and locomotion will be understood and applied.
-				</li>
-				<br>
-				<li>
-				Design of robotic subsystems will utilize multiple areas of knowledge. 
-				</li>
-				<br>
-				<li>
-				The course will involve application of statistical analysis to quantify robot performance. 
-				</li>
-				<br>
-				<li>
-				Service learning is an integral part of the course. 
-				</li>
-				<br>
-				<li>
-				All participants will participate in weekly mentoring of a youth robotics competition team to put into practice the principles learned in class, and to learn through community interaction from other students using robots to accomplish different feats.
-				</li>
-				</ul>
-				</p>
-				<br>
-				<ul>
-				<br>
-				<ol>
-				<b>SW 0304 Web Development 
-				</b>
-				</ol>
-				<p>
-				<br>
-				<li>
-				This course introduces the student to developing applications for use on the World Wide Web.</li>
-				<br>
-				<li>
-				Students learn basic n-tier concepts for designing distributed applications and gain hands on experience through the construction of Web-based applications.</li>
-				<br>
-				<li>
-				The course covers concepts that allow communication over the Web.</li>
-				<br>
-				<li>
-				This includes designing and authoring Web pages, markup languages, the client-side document object model, usability, search engine optimization, and client-side dynamic Web pages.</li>
-				<br>
-				<li>
-				Service learning is reinforced through partnerships with local community to design and develop fully functional websites.</li>
-				</ul>
-				</p>
-				</section>
-			</div>
-
-			<footer>			
-				<div w3-include-html="./include/footer.html"></div>
-  			</footer>
+			
+	     	<script>
+				w3.includeHTML();
+			</script>
+			<div id="wrapper">
+			<div id="main">
+			<h3>Team History</h3>
 		
+		<div id="pastEvents">
+			<a href="https://www.firstinspires.org/team-event-search/team?program=FRC&year=2011&number=3634" target="_blank">Past Events</a>
 		</div>
-		
+		<iframe width="760" height="515" src="https://www.youtube.com/embed/pAkMPD2Q9kE" frameborder="0" allowfullscreen style="padding-left: 80px; padding-top: 100px;"></iframe>	
+		<div id="robotPics">
+			<h2 style="padding-top: 30px;">Past Robot Designs</h2>
+			<img src="images/robot1.jpeg" height="250px" width="250px" />
+			<img src="images/robot2.jpeg" height="250px" width="250px" />
+			<img src="images/robot3.jpeg" height="250px" width="250px" />
+		</div>
+		<div id="pastResults">
+			<h4 style="padding-top: 100px;font-size: 50px;text-align:center;">Past Competion Results</h3>
+			<img src="images/hartford results.png" height="500px" width="700px" />
+			<img src="images/hartford alliances results.png" height="500px" width="700px" />
+			<img src="images/waterbury results.png" height="500px" width="680px"/>
+			<img src="images/end season results.png" height="500px" width="700px" style="padding-top: 30px;"/>
+		</div>
+			<footer>  
+ 			    <div w3-include-html="./include/footer.html"></div>
+            </footer>
+		</div>
 	</body>
 </html>
