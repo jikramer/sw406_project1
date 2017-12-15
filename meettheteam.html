@@ -6,26 +6,30 @@
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
 	</head>
 	<style>
-		dt {
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: 1em;
-			font-weight: bold;
+		table{
+			width: 100%;
 		}
-		dl {
-			text-align: left;
-			margin-left: 200px;
-			margin-right: 200px;
+		tr, td{
+			padding: 15px;
+			border: 1px solid #dddddd;
 		}
-		dd {
-			padding-bottom: 30px;
+		#name{
+			text-align:center;
 		}
-		h2 {
+		tr:nth-child(even) {
+    		background-color: #dddddd;
+		}
+		h2{
 			font-style: bold;
 			text-align: center;
 			color: #d89b00;
 			border-bottom: 2px solid #000000;
  			font-size: 200%
-			}
+		}
+		ul{
+			padding-left: 20px;
+			padding-right:10px;
+		}
 	</style>
 	<body>
 		<header>
@@ -47,44 +51,122 @@
 				<div id="teampics" style="text-align: center">
 					<img  src="images/teampic1.jpg" width="50%" height="50%"/>
 				</div>
-				<dl>
-					<dt>
-						Jahsheim Wright
-					</dt>
-					<dd>
-						Hi my name is Jahsheim Wright, at the moment I attend Warren Harding high school and have been with spark city for about a year now, and have been enjoying myself so far.
-					</dd>
-					<dt>
-						Param Pithadia
-					</dt>
-					<dd>
-						I’m a freshman at Fairchild Wheeler High School. I participated in many events such as FLL, hack-a-thons, FTC, VEX, EDR, and the Westport Maker Fair. Other than robotics I enjoy biking, play tennis, karate, drums, and guitar.
-					</dd>
-					<dt>
-						Tremaine Smith Jr
-					</dt>
-					<dd>
-						I am a Junior at Harding High School and I am currently pursuing a career in engineering.
-					</dd>
-					<dt>
-						Jonquil Harding-McCally
-					</dt>
-					<dd>
-						I like video games, basketball, football, computers, and food.
-					</dd>
-					<dt>
-						Christopher Fortich
-					</dt>
-					<dd>
-						I’m 16 years old and from Paterson, New Jersey. I like soccer, anime, DC comic books, Rick and Morty.  I've been skateboarding since I was 12 and I love robotics.
-					</dd>
-					<dt>
-						Khloe Hill
-					</dt>
-					<dd>
-						I am a 15 year old computer enthusiast. When I am not participating in Robotics, I am learning and perfecting computer programming languages. I am currently learning Javascript, C++, Python, and HTML. I also enjoy programming and building with my personal arduino. In my free time when I am not working on anything computer science related I have fun making graphic designs, painting, and participating in NanoWrimo(National Novel Writing Month). I am homeschool
-					</dd>
-				</dl>
+				<table>
+					<tr>
+						<td><h2>Name</h2></td>
+						<td><h2>High School</h2></td>
+						<td><h2>Interests</h2></td>
+					</tr>
+					<tr>
+						<td id="name">Alexis Reid</td>
+						<td id="name">Fairchild Wheeler</td>
+						<td>
+							<ul>
+							<li>Robotics</li>
+							<li>From Bridgeport</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Antonion Rosado</td>
+						<td id="name">Fairchild Wheeler</td>
+						<td>
+							<ul>
+							<li>Video Games</li>
+							<li>TV</li>
+							<li>Robotics</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Christropher Fortich</td>
+						<td id="name">Central</td>
+						<td>
+							<ul>
+							<li>Soccer</li>
+							<li>Anime</li>
+							<li>DC comics</li>
+							<li>Skateboarding</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Exequill Fontan</td>
+						<td id="name">Harding</td>
+						<td>
+							<ul>
+							<li>Writing music</li>
+							<li>Gaming</li>
+							<li>Short stories</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Jahsheim Wright</td>
+						<td id="name">Warren Harding</td>
+						<td>
+							<ul>
+							<li>Loves robotics</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Jonquill Harding-McCallop</td>
+						<td id="name">Harding</td>
+						<td>
+							<ul>
+							<li>Video games</li>
+							<li>Football</li>
+							<li>Computers</li>
+							<li>Food</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Khloe Hill</td>
+						<td id="name">Home Schooled</td>
+						<td>
+							<ul>
+							<li>Programming - Javascript, C++, Python, HTML</li>
+							<li>Graphic design</li>
+							<li>NanoWrimo(National Novel Writing Mont)</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Param Pithadia</td>
+						<td id="name">Fairchild Wheeler</td>
+						<td>
+							<ul>
+							<li>Loves computers</li>
+							<li>Karate</li>
+							<li>Guitar</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">Tremaine Smith Jr</td>
+						<td id="name">Harding</td>
+						<td>
+							<ul>
+							<li>Wants to be an engineer</li>
+							<li>Karate</li>
+							<li>Guitar</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td id="name">William Morgan</td>
+						<td id="name">Harding</td>
+						<td>
+							<ul>
+							<li>Writing stories</li>
+							<li>Skateboarding</li>
+							<li>Video games</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 
